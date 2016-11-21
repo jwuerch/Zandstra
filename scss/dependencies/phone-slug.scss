@@ -1,7 +1,7 @@
 /** PHONE SLUG **/
 
-$background: blue;
-$text-color: #FFF;
+$background: #CBBC7A;
+$text-color: #3A3F09;
 $phone-color: #FFF;
 
 
@@ -11,34 +11,38 @@ $phone-color: #FFF;
   padding-bottom:0px;
 }
 .phone-slug h6 {
-  font-size:18px;
+  font-size:17px;
   color:$text-color;
   line-height:19px;
   font-weight:400;
-  margin-bottom:4px;
+  margin-bottom:10px;
+  font-family: 'Open Sans', sans-serif;
 }
 .phone-slug .new-hotline {
   font-size:36px;
-  font-weight:700;
+  font-weight:900;
   line-height:25px;
 }
 .phone-slug .new-hotline a {
-  color:$phone-color;
+  color:#3A3F09;
+  font-size:36px;
+  font-weight:700;
 }
 .device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
   margin-bottom:20px;
 }
 .phone-slug .old-hotline {
-  font-size:21px;
-  color:#FFF;
-  margin-top:15px;
+  font-size:17px;
+  color:#3A3F09;
+  margin-top:5px;
+  font-family:'Open Sans', sans-serif;
 }
 .phone-slug .old-hotline a {
-  color:$phone-color;
-  font-weight:700;
+  color:#3A3F09;
+  font-weight:900;
+  font-size:20px;
 }
 .phone-slug  .col-sm-6.tleft {
-  border-left:1px solid #FFF;
 }
 .phone-slug .button {
   margin:2.5px 0;
@@ -60,11 +64,15 @@ $phone-color: #FFF;
 }
 .device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
   text-align:center !important;
-  border-left:none;
+
 }
 
 .device-xs .old-hotline, .device-xxs .old-hotline {
   font-size:24px;
   font-weight:300;
   line-height:35px !important;
+}
+
+.phone-slug .col-sm-6.tleft {
+  transform: translateY(25%);
 }

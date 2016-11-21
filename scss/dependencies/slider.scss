@@ -1,5 +1,9 @@
-#slide-1, #slide-2, #slide-3 {
+#slide-1, #slide-2 {
   background-position:0% 0%;
+  background-size:cover;
+}
+
+#slide-3 {
   background-size:cover;
 }
 #slide-1 h2 {
@@ -54,7 +58,7 @@
   top:200px !important;
 }
 #slide-3 .star-set {
-  margin-bottom:30px;
+  margin-bottom:20px;
   font-size:36px;
 }
 

@@ -25837,39 +25837,41 @@ a.social-icon.si-colored {
 
 /** PHONE SLUG **/
 .phone-slug {
-  background: blue;
+  background: #CBBC7A;
   padding-top: 25px;
   padding-bottom: 0px; }
 
 .phone-slug h6 {
-  font-size: 18px;
-  color: #FFF;
+  font-size: 17px;
+  color: #3A3F09;
   line-height: 19px;
   font-weight: 400;
-  margin-bottom: 4px; }
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif; }
 
 .phone-slug .new-hotline {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 25px; }
 
 .phone-slug .new-hotline a {
-  color: #FFF; }
+  color: #3A3F09;
+  font-size: 36px;
+  font-weight: 700; }
 
 .device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
   margin-bottom: 20px; }
 
 .phone-slug .old-hotline {
-  font-size: 21px;
-  color: #FFF;
-  margin-top: 15px; }
+  font-size: 17px;
+  color: #3A3F09;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif; }
 
 .phone-slug .old-hotline a {
-  color: #FFF;
-  font-weight: 700; }
-
-.phone-slug .col-sm-6.tleft {
-  border-left: 1px solid #FFF; }
+  color: #3A3F09;
+  font-weight: 900;
+  font-size: 20px; }
 
 .phone-slug .button {
   margin: 2.5px 0; }
@@ -25888,13 +25890,15 @@ a.social-icon.si-colored {
   text-align: center !important; }
 
 .device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
-  text-align: center !important;
-  border-left: none; }
+  text-align: center !important; }
 
 .device-xs .old-hotline, .device-xxs .old-hotline {
   font-size: 24px;
   font-weight: 300;
   line-height: 35px !important; }
+
+.phone-slug .col-sm-6.tleft {
+  transform: translateY(25%); }
 
 /** Contact Modal **/
 .form-error {
@@ -26145,8 +26149,11 @@ h4.modal-title {
   height: 100%;
   border-bottom: 5px solid #FFF; }
 
-#slide-1, #slide-2, #slide-3 {
+#slide-1, #slide-2 {
   background-position: 0% 0%;
+  background-size: cover; }
+
+#slide-3 {
   background-size: cover; }
 
 #slide-1 h2 {
@@ -26198,7 +26205,7 @@ h4.modal-title {
   top: 200px !important; }
 
 #slide-3 .star-set {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 36px; }
 
 #slide-3 h4 {
