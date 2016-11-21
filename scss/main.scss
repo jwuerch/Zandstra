@@ -12,6 +12,7 @@
 @import "dependencies/contact-modal.scss";
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
+@import "dependencies/slider.scss";
 
 
 // End Canvas Dependencies //
@@ -22,8 +23,8 @@
 $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $third-font: 'Roboto Condensed', sans-serif;
-$button-color: orange;
-$button-hover:gray;
+$button-color: #F57423;
+$button-hover:#D6651F;
 
 // CSS //
 
@@ -32,36 +33,44 @@ body {
 }
 
 h1 {
-  font-size:64px;
+  font-size:72px;
+  font-family:$primary-font;
 }
 
 h2 {
   font-size:48px;
+  font-family:$primary-font;
 }
 
 h3 {
-  font-size:36px;
+  font-size:32px;
+  font-family:$primary-font;
 }
 
 h4 {
   font-size:28px;
+  font-family:$primary-font;
 }
 
 h5 {
   font-size:24px;
+  font-family:$primary-font;
 }
 
 h6 {
   font-size:20px;
+  font-family:$primary-font;
 }
 
 p {
   font-size:18px;
+  font-family:$secondary-font;
 }
 
 .button {
   background:$button-color;
   padding-top:2px;
+  border-radius:0;
 }
 .button:hover {
   background:$button-hover
