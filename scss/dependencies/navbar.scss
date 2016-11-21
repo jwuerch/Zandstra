@@ -13,6 +13,15 @@
   font-weight:700;
   color:green;
 }
-#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-    height:60px;
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
+    height:700px;
+    position:fixed;
+    top:-265px;
+}
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
+  height:100px;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top:39px;
+  padding-bottom:39px;
 }

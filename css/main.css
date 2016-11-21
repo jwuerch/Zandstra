@@ -25763,8 +25763,13 @@ Copyright (c) 2014 Daniel Eden
   font-weight: 700;
   color: green; }
 
-#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 60px; }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
+  height: 700px;
+  position: fixed;
+  top: -265px; }
+
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
+  height: 100px; }
 
 #copyrights {
   background: grey; }
