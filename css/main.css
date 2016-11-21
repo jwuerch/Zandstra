@@ -25789,8 +25789,11 @@ Copyright (c) 2014 Daniel Eden
   position: absolute;
   left: 0; }
 
-#header.full-header #primary-menu > ul {
+.device-sm #header.full-header #primary-menu > ul, .device-xs #header.full-header #primary-menu > ul, .device-xxs #header.full-header #primary-menu > ul {
   margin-top: 20px !important; }
+
+body.stretched #header.full-header .container {
+  padding: 0; }
 
 #copyrights {
   background: grey; }
