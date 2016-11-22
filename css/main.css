@@ -26338,7 +26338,8 @@ h4.modal-title {
 
 #reviews {
   padding: 50px 0;
-  background-image: url("../images/reviews-bg.jpg"); }
+  background-image: url("../images/reviews-bg.jpg");
+  background-size: cover; }
 
 .bf-spn {
   color: #FFF;
@@ -26365,6 +26366,25 @@ h4.modal-title {
 
 .bf-dv {
   margin-top: 50px !important; }
+
+#office-tour h3 {
+  color: #3C4109;
+  font-weight: 700;
+  font-size: 32px; }
+
+#office-tour {
+  border-top: 3px solid #FFE76B;
+  border-bottom: 3px solid #FFE76B;
+  padding: 50px 0;
+  background-image: linear-gradient(-180deg, #F2F2F2 0%, #CDBC7B 100%); }
+
+#office-tour p {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif; }
+
+#office-tour > div > div.row > div:nth-child(1) {
+  margin-top: 100px; }
 
 body {
   font-family: "Lato", sans-serif; }
