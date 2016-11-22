@@ -25941,7 +25941,6 @@ h4.modal-title {
 .section-specials {
   padding-top: 0px;
   padding-bottom: 20px;
-  background: gray;
   background-size: cover; }
 
 .section-specials h2 {
@@ -25952,22 +25951,16 @@ h4.modal-title {
   line-height: 50px !important; }
 
 .specials-1 {
-  background: #E59908;
-  color: #E59908; }
-
-.specials-1.specials-circle {
-  background: #E59908; }
+  color: #E59908;
+  background: #A68A00; }
 
 .specials-2 {
-  background: #106547;
-  color: #106547; }
-
-.specials-2.specials-circle {
-  background: #106547; }
+  color: #106547;
+  background: #3B7030; }
 
 .specials-3 {
-  background: #52A3BF;
-  color: #52A3BF; }
+  color: #52A3BF;
+  background: #E87500; }
 
 .specials-3.specials-circle {
   background: #52A3BF; }
@@ -25975,25 +25968,27 @@ h4.modal-title {
 .specials-row h5 {
   font-size: 36px;
   color: #FFF;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 40px !important; }
 
 .specials-row p {
-  color: red;
+  color: #FFF;
   font-size: 18px;
   margin-bottom: 0px;
   line-height: 25px !important;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif; }
 
 .specials-label {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: red; }
+  color: #FFFFFF; }
 
 .specials-save {
   font-size: 18px;
   text-transform: uppercase;
-  background: none;
   font-family: "Lato", sans-serif;
   font-weight: 400; }
 
@@ -26003,7 +25998,6 @@ h4.modal-title {
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 20px;
-  background: #FFF;
   margin-bottom: 50px;
   opacity: .85; }
 
@@ -26018,37 +26012,43 @@ h4.modal-title {
 .specials-top {
   height: 196px;
   padding-top: 15px;
-  border-radius: 8px 8px 0px 0px; }
+  border-radius: 8px 8px 0px 0px;
+  background: none; }
 
 .specials-circle {
   position: relative;
-  border: 7px solid #FFF;
-  width: 146px;
-  height: 146px;
+  width: 165px;
+  height: 165px;
   border-radius: 50%;
   top: -73px;
   margin: 0 auto;
   margin-bottom: -73px; }
 
 .specials-bottom {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 12.5px;
   padding-right: 12.5px; }
 
 .specials-save {
-  font-size: 18px; }
+  font-size: 18px;
+  background: none;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; }
 
 .price {
-  font-size: 84px;
+  font-size: 100px;
   color: #FFF;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif; }
 
 .dollar {
   font-size: 36px;
   color: #FFF;
   top: -37.5px;
   font-family: 'Lato', sans-serif;
-  position: relative; }
+  position: relative;
+  font-weight: 400; }
 
 .device-md .specials-row p, .device-sm .specials-row p, .device-xs .specials-row p, .device-xxs .specials-row p {
   margin-top: 10px; }
@@ -26087,10 +26087,24 @@ h4.modal-title {
   margin-bottom: 0; }
 
 #specials-top {
-  background: #3C4109;
   padding-top: 10px;
   height: 145px;
-  border-top: 3px solid #FFF; }
+  border-top: 3px solid #FFF;
+  background: #3C4109; }
+
+#specials {
+  background-image: url("../images/specials-BG.jpg"); }
+
+#specials > div > div > div:nth-child(3) > div.specials-3.specials-circle > span.price {
+  font-size: 75px !important;
+  letter-spacing: -2px !important;
+  top: 20px;
+  left: -2px;
+  position: relative; }
+
+#specials > div > div > div:nth-child(3) > div.specials-3.specials-circle > span.dollar {
+  left: -2px;
+  top: -13px !important; }
 
 /** CONTACT **/
 #contact-form-overlay-mini {
@@ -26284,6 +26298,40 @@ h4.modal-title {
   color: #312400;
   margin-bottom: 20px; }
 
+#specials-below {
+  border-top: 3px solid #FFE66B;
+  border-bottom: 3px solid #FFE66B;
+  background: #EDE7D0;
+  padding-top: 30px; }
+
+#specials-below h6 {
+  font-size: 17px;
+  color: #3C4109;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 10px;
+  margin-bottom: 0; }
+
+#specials-below .new-hotline a {
+  color: #3C4109;
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900; }
+
+#specials-below .old-hotline {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px; }
+
+#specials-below .old-hotline a {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: #3C4109;
+  margin-top: -10px; }
+
+#specials-below .tleft {
+  margin-top: 12px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -26318,7 +26366,8 @@ p {
 .button {
   background: #F57423;
   padding-top: 2px;
-  border-radius: 0; }
+  border-radius: 0;
+  box-shadow: none; }
 
 .button:hover {
   background: #D6651F; }
