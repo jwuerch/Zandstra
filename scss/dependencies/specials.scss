@@ -10,7 +10,7 @@ $p-color: red;
 
 
 .section-specials {
-  padding-top:50px;
+  padding-top:0px;
   padding-bottom:20px;
   background:$section-background;
   background-size:cover;
@@ -153,4 +153,22 @@ $p-color: red;
 }
 .device-xs .section-specials .col-xs-12 p, .device-xxs .section-specials .col-xs-12 p {
   line-height:40px !important;
+}
+
+#specials-top h3 {
+  color:#DFC54B;
+  font-weight:700;
+  margin-bottom:0;
+}
+#specials-top h5 {
+  font-family:'Open Sans', sans-serif;
+  color:#FFF;
+  font-weight:400;
+  margin-bottom:0;
+}
+#specials-top {
+  background:#3C4109;
+  padding-top:10px;
+  height:145px;
+  border-top:3px solid #FFF;
 }

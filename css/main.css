@@ -25939,7 +25939,7 @@ h4.modal-title {
 
 /** SPECIALS **/
 .section-specials {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
   background: gray;
   background-size: cover; }
@@ -26074,6 +26074,23 @@ h4.modal-title {
 
 .device-xs .section-specials .col-xs-12 p, .device-xxs .section-specials .col-xs-12 p {
   line-height: 40px !important; }
+
+#specials-top h3 {
+  color: #DFC54B;
+  font-weight: 700;
+  margin-bottom: 0; }
+
+#specials-top h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  margin-bottom: 0; }
+
+#specials-top {
+  background: #3C4109;
+  padding-top: 10px;
+  height: 145px;
+  border-top: 3px solid #FFF; }
 
 /** CONTACT **/
 #contact-form-overlay-mini {
@@ -26253,17 +26270,19 @@ h4.modal-title {
   font-weight: 700;
   font-size: 28px;
   color: #FFFFFF;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px; }
 
 #meet-the-doctor {
   padding: 60px 0;
   background-image: url("../images/zandstra-bio.jpg");
   background-size: cover;
-  backround-position: 25% 25%; }
+  backround-position: 0% 0%; }
 
 #meet-the-doctor p {
   font-size: 12px;
-  color: #312400; }
+  color: #312400;
+  margin-bottom: 20px; }
 
 body {
   font-family: "Lato", sans-serif; }
