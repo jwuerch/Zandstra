@@ -26360,6 +26360,18 @@ h4.modal-title {
 .device-xs #meet-the-doctor-mobile img, .device-xxs #meet-the-doctor-mobile img {
   margin-bottom: 20px; }
 
+.device-xs #meet-the-doctor-mobile h2 {
+  font-size: 36px; }
+
+.device-xs #meet-the-doctor-mobile h4 {
+  font-size: 23px; }
+
+.device-xxs #meet-the-doctor-mobile h2 {
+  font-size: 30px; }
+
+.device-xxs #meet-the-doctor-mobile h4 {
+  font-size: 21px; }
+
 #specials-below {
   border-top: 3px solid #FFE66B;
   border-bottom: 3px solid #FFE66B;
