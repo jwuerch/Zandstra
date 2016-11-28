@@ -179,3 +179,38 @@
 .device-xxs #slide-1 h4 {
   margin-bottom:5px;
 }
+
+.device-xs .icon-star3 {
+  font-size:20px;
+}
+.device-xs #slide-2 > div > div > div.star-set.fadeInUp.animated, .device-xxs #slide-2 > div > div > div.star-set.fadeInUp.animated {
+  text-align:right !important;
+}
+.device-xs #slide-2 .slider-caption, .device-xxs #slide-2 .slider-caption {
+  margin-top:-135px;
+}
+
+.device-xs #slide-2 > div > div > h2 {
+  text-align:right !important;
+  font-size:30px;
+}
+
+.device-xs #slide-2 > div > div > p {
+    text-align:right !important;
+    margin-top:10px;
+    padding-left:205px;
+    padding-right:0;
+  margin-bottom:10px;
+  font-size:16px;
+}
+.device-xs #slide-2 .button {
+  height:30px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:16px;
+  width:100%;
+  line-height:21px !important;
+}
+.device-xs .btn-wrap {
+  float:right;
+}
