@@ -26477,8 +26477,8 @@ h4.modal-title {
   margin-top: 20px; }
 
 .device-xs #slide-3 h4 {
-  padding-right: 150px;
-  font-size: 20px;
+  padding-right: 250px;
+  font-size: 16px;
   margin: 10px 0; }
 
 .device-xxs #slide-3 h4 {
@@ -26502,9 +26502,15 @@ h4.modal-title {
 
 @media (max-width: 350px) {
   .device-xxs #logo img {
-    margin-left: -10%; }
+    margin-left: -5%; }
   .device-xxs #primary-menu-trigger {
-    margin-right: -5%; } }
+    margin-right: -2%; }
+  .device-xxs #slide-1 > div > div {
+    left: 5px !important; }
+  .device-xxs #slide-2 .slider-caption {
+    margin-right: 5px !important; }
+  .device-xxs #slide-3 .slider-caption {
+    margin-left: -10px !important; } }
 
 .device-xxs #slide-3 .slider-caption {
   margin-left: -10%; }
