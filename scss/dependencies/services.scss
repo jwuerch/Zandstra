@@ -67,7 +67,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 }
 
 .portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
-  bottom:0px !important;
+  bottom:5px !important;
 }
 
 #related-portfolio div.portfolio-desc {
@@ -117,7 +117,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 }
 
 #services-carousel .iportfolio .portfolio-image {
-  height:316px;
+  background:#FFDE86;
 }
 
 #services-carousel .owl-carousel .owl-nav [class*=owl-] {
@@ -141,8 +141,4 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
   top:-7px;
   font-size:40px;
   font-weight:900;
-}
-
-#services-carousel {
-  border-bottom:3px solid #FFDE86;
 }
