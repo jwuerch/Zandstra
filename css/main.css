@@ -26298,6 +26298,30 @@ h4.modal-title {
     padding-left: 90px;
     top: 150px !important; } }
 
+.device-lg #slide-1, .device-md #slide-1 {
+  background-image: url("../images/slide1.jpg");
+  background-size: cover; }
+
+.device-lg #slide-2, .device-md #slide-2 {
+  background-image: url("../images/slide2.jpg");
+  background-size: cover; }
+
+.device-lg #slide-3, .device-md #slide-3 {
+  background-image: url("../images/slide3.jpg");
+  background-size: cover; }
+
+.device-sm #slide-1, .device-xs #slide-1, .device-xxs #slide-1 {
+  background-size: cover;
+  background-image: url("../images/slide1-mobile.jpg"); }
+
+.device-sm #slide-2, .device-xs #slide-2, .device-xxs #slide-2 {
+  background-size: cover;
+  background-image: url("../images/slide2-mobile.jpg"); }
+
+.device-sm #slide-3, .device-xs #slide-3, .device-xxs #slide-3 {
+  background-size: cover;
+  background-image: url("../images/slide3-mobile.jpg"); }
+
 #meet-the-doctor h3 {
   font-size: 32px;
   font-weight: 700;
@@ -26370,7 +26394,7 @@ h4.modal-title {
   font-size: 30px; }
 
 .device-xxs #meet-the-doctor-mobile h4 {
-  font-size: 21px; }
+  font-size: 18px; }
 
 #specials-below {
   border-top: 3px solid #FFE66B;
