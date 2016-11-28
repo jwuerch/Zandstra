@@ -81,3 +81,11 @@
 .device-xxs #meet-the-doctor-mobile h4 {
   font-size:18px;
 }
+
+#meet-the-doctor > div > div > div.col-sm-8 {
+  postion:relative;
+  left:5%;
+}
+.device-md #meet-the-doctor {
+  background-position-x:25%;
+}

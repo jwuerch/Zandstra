@@ -26429,6 +26429,13 @@ h4.modal-title {
 .device-xxs #meet-the-doctor-mobile h4 {
   font-size: 18px; }
 
+#meet-the-doctor > div > div > div.col-sm-8 {
+  postion: relative;
+  left: 5%; }
+
+.device-md #meet-the-doctor {
+  background-position-x: 25%; }
+
 #specials-below {
   border-top: 3px solid #FFE66B;
   border-bottom: 3px solid #FFE66B;
@@ -26540,6 +26547,12 @@ h4.modal-title {
 
 .device-xs #office-tour .button, .device-xxs #office-tour .button {
   margin-bottom: 20px; }
+
+.device-md #office-tour > div > div.row > div:nth-child(1), .device-lg #office-tour > div > div.row > div:nth-child(1) {
+  margin-top: 75px; }
+
+.device-sm #office-tour > div > div.row > div:nth-child(1) {
+  margin-top: 0; }
 
 #services-top {
   padding-top: 30px;

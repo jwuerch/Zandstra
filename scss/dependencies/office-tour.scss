@@ -48,3 +48,10 @@
 .device-xs #office-tour .button, .device-xxs #office-tour .button {
   margin-bottom:20px;
 }
+
+.device-md #office-tour > div > div.row > div:nth-child(1), .device-lg #office-tour > div > div.row > div:nth-child(1) {
+  margin-top:75px;
+}
+.device-sm #office-tour > div > div.row > div:nth-child(1) {
+  margin-top:0;
+}
