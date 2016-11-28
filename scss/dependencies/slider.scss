@@ -334,3 +334,11 @@
 .device-md #slide-2, .device-sm #slide-2 {
   background-position-x:66% !important;
 }
+
+.device-xs #slide-3 .slider-caption {
+  left:-10%;
+}
+
+.device-xs #slide-1 > div > div {
+  left:-10%;
+}
