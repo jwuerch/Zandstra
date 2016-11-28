@@ -26647,7 +26647,8 @@ h4.modal-title {
 #reviews {
   padding: 50px 0;
   background-image: url("../images/reviews-bg.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .bf-spn {
   color: #FFF;
@@ -26944,7 +26945,7 @@ div.modal-body > div.img-wrap.hidden-xs.hidden-sm {
 
 #contact {
   max-height: 616px;
-  background: url("../images/map-full.png");
+  background: url("../images/google-map-full.png");
   background-size: cover; }
 
 .device-xs #contact, .device-xxs #contact {
