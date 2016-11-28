@@ -150,3 +150,9 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
   position:absolute;
   bottom:0;
 }
+
+@media (max-width:320px) {
+  .portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
+    bottom:inherit !important;
+  }
+}
