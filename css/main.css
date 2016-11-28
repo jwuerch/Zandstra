@@ -26522,6 +26522,9 @@ h4.modal-title {
 .device-xxs #slide-3 .icon-star3 {
   font-size: 16px; }
 
+.device-xxs .btn-2 {
+  display: none !important; }
+
 #meet-the-doctor h3 {
   font-size: 32px;
   font-weight: 700;
@@ -26941,7 +26944,8 @@ div.modal-body > div.img-wrap.hidden-xs.hidden-sm {
 
 #contact {
   max-height: 616px;
-  background: url("../images/map-full.png"); }
+  background: url("../images/map-full.png");
+  background-size: cover; }
 
 .device-xs #contact, .device-xxs #contact {
   background: none; }
