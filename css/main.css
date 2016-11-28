@@ -25851,7 +25851,7 @@ a.social-icon.si-colored {
 
 /** PHONE SLUG **/
 .phone-slug {
-  background: #CBBC7A;
+  background: #EDE7D0;
   padding-top: 25px;
   padding-bottom: 0px; }
 
@@ -25874,7 +25874,7 @@ a.social-icon.si-colored {
   font-weight: 700; }
 
 .device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 .phone-slug .old-hotline {
   font-size: 17px;
@@ -25916,6 +25916,22 @@ a.social-icon.si-colored {
 
 #phone-slug-1 {
   border-bottom: 3px solid #FFF; }
+
+.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px; }
+
+.device-xs .phone-slug .old-hotline a, .device-xxs .phone-slug .old-hotline a {
+  font-size: 21px; }
+
+.device-xs .phone-slug .old-hotline, .device-xxs .phone-slug .old-hotline {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px !important; }
+
+.device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
+  margin-bottom: 50px; }
 
 /** Contact Modal **/
 .form-error {
