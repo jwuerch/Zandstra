@@ -41,4 +41,18 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+
+
+    $(window).load(function() {
+        $('#oc-slider-2').owlCarousel({
+            items: 1,
+            nav: true,
+            loop: true,
+            autoHeight: true,
+            navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>']
+        });
+    });
+
 })(jQuery);
+
+

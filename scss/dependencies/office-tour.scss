@@ -20,3 +20,25 @@
 #office-tour > div > div.row > div:nth-child(1) {
   margin-top:100px;
 }
+
+#office-tour-modal > div {
+  background:none !important;
+}
+
+.owl-carousel .owl-dots {
+  display:none;
+}
+
+#oc-slider > div.owl-nav > div.owl-prev {
+  left:-18px;
+}
+
+#oc-slider > div.owl-nav > div.owl-next {
+  right:-18px;
+}
+.owl-prev, .owl-next {
+  opacity:1 !important;
+}
+.owl-carousel .owl-nav [class*=owl-]:hover {
+  background:#3C4109 !important;
+}

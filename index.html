@@ -293,7 +293,9 @@
                     <div class="row">
                         <div class="col-sm-6 center">
                             <p>We look forward to meeting you and your family. Our beautiful, Inviting office is a refreshing place to relax while getting your dental work done. We welcome children too, so make an appointment today!</p>
-                            <a class="button">VIEW OFFICE TOUR</a>
+
+
+                            <a class="button delay-btn" data-toggle="modal" data-target="#office-tour-modal">VIEW OFFICE TOUR</a>
                         </div>
                         <div class="col-sm-6 center">
                             <img src="images/office-tour-photo.png" alt="Office Tour Photo">
@@ -797,12 +799,61 @@
 </div>
 
 
+<div class="modal fade" id="office-tour-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-body">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;</button>
+                    <h4 class="modal-title">Office Tour</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div id="oc-slider-2" class="owl-carousel" data-margin="0" data-items="1" data-animate-in="zoomIn" data-speed="450" data-animate-out="fadeOut" data-loop="true">
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/1.jpg" alt="tour-slide-1">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/2.jpg" alt="tour-slide-2">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/3.jpg" alt="tour-slide-3">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/4.jpg" alt="tour-slide-4">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/5.jpg" alt="tour-slide-5">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/6.jpg" alt="tour-slide-6">
+                        </div>
+
+                        <div class=" hidden-div">
+                            <img src="images/tour/7.jpg" alt="tour-slide-7">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- JS Templates
 		====================== -->
 
 <!--- Specials Script
         =================== -->
+
 <script type="text/template" id="success_msg">
     <p>Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will
         contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have.
@@ -843,6 +894,12 @@
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async
         defer></script>
+
+
+<script type="text/javascript">
+
+
+</script>
 
 </body>
 </html>
