@@ -138,6 +138,9 @@
 .device-xs #slide-1 h2, .device-xxs #slide-1 h2 {
   font-size:20px;
 }
+.device-xxs #slide-1 h2 {
+  text-align:left !important;
+}
 
 .device-xs #slide-1 h1, .device-xxs #slide-1 h1 {
   font-size:24px;
@@ -180,7 +183,7 @@
   margin-bottom:5px;
 }
 
-.device-xs .icon-star3 {
+.device-xs .icon-star3, .device-xxs .icon-star3 {
   font-size:20px;
 }
 .device-xs #slide-2 > div > div > div.star-set.fadeInUp.animated, .device-xxs #slide-2 > div > div > div.star-set.fadeInUp.animated {
@@ -190,12 +193,12 @@
   margin-top:-135px;
 }
 
-.device-xs #slide-2 > div > div > h2 {
-  text-align:right !important;
-  font-size:30px;
+.device-xs #slide-2 > div > div > h2, .device-xxs #slide-1 > div > div > h2 {
+  text-align:left !important;
+  font-size:22px;
 }
 
-.device-xs #slide-2 > div > div > p {
+.device-xs #slide-2 > div > div > p, .device-xxs #slide-2 > div >div > p {
     text-align:right !important;
     margin-top:10px;
     padding-left:205px;
@@ -203,14 +206,24 @@
   margin-bottom:10px;
   font-size:16px;
 }
-.device-xs #slide-2 .button {
+.device-xs #slide-2 .button, .device-xxs #slide-2 .button {
   height:30px;
   padding-left:20px;
   padding-right:20px;
-  font-size:16px;
+  font-size:14px;
   width:100%;
   line-height:21px !important;
 }
-.device-xs .btn-wrap {
+.device-xs #slide-2 .btn-wrap, .device-xxs #slide-2 .btn-wrap {
   float:right;
+}
+
+.device-xxs #slide-2 > div > div > h2 {
+  font-size:20px;
+  text-align:right !important;
+  margin-bottom:15px !important;
+}
+
+.device-xxs #slide-2 > div > div > p {
+  display:none !important;
 }
