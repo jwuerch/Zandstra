@@ -26330,6 +26330,36 @@ h4.modal-title {
   color: #312400;
   margin-bottom: 20px; }
 
+#meet-the-doctor-mobile h2 {
+  /* Dr. Estelle Zandstra: */
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 57.59px;
+  color: #FFF6CD;
+  margin-bottom: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+
+#meet-the-doctor-mobile {
+  padding: 30px 0;
+  background-image: url("../images/zandstra-bio-bkgd-mobile.jpg");
+  background-size: cover; }
+
+#meet-the-doctor-mobile h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 25.2px;
+  color: #FFFFFF;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+
+#meet-the-doctor-mobile p {
+  /* By combining advance: */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #312400; }
+
+.device-xs #meet-the-doctor-mobile img, .device-xxs #meet-the-doctor-mobile img {
+  margin-bottom: 20px; }
+
 #specials-below {
   border-top: 3px solid #FFE66B;
   border-bottom: 3px solid #FFE66B;
