@@ -25933,6 +25933,29 @@ a.social-icon.si-colored {
 .device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
   margin-bottom: 50px; }
 
+.device-xs #specials-below h6, .device-xxs #specials-below h6 {
+  text-align: center !important; }
+
+.device-xs #specials-below .new-hotline, .device-xxs #specials-below .new-hotline {
+  text-align: center; }
+
+.device-xs #specials-below .button, .device-xxs #specials-below .button {
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 35px; }
+
+.device-xs #specials-below .tleft, .device-xxs #specials-below .tleft {
+  text-align: center !important;
+  margin-bottom: 40px;
+  margin-top: 30px; }
+
+.device-xs #specials-below .old-hotline, .device-xxs #specials-below .old-hotline {
+  line-height: 22px !important;
+  font-weight: 400; }
+
+.device-xs #specials-below .old-hotline a, .device-xxs #specials-below .old-hotline a {
+  font-size: 21px; }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -26138,6 +26161,13 @@ h4.modal-title {
 
 .device-xxs #specials-top {
   height: 210px; }
+
+.device-xxs #specials-top h3 {
+  line-height: 35px;
+  margin-bottom: 20px; }
+
+.device-xxs #specials-top h5 {
+  line-height: 30px; }
 
 /** CONTACT **/
 #contact-form-overlay-mini {
@@ -26504,6 +26534,12 @@ h4.modal-title {
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
   background: #3C4109 !important; }
+
+.device-xs #office-tour h3, .device-xxs #office-tour h3 {
+  margin-bottom: -75px; }
+
+.device-xs #office-tour .button, .device-xxs #office-tour .button {
+  margin-bottom: 20px; }
 
 #services-top {
   padding-top: 30px;

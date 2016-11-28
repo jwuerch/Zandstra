@@ -100,3 +100,29 @@ $phone-color: #FFF;
 .device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
   margin-bottom:50px;
 }
+
+.device-xs #specials-below h6, .device-xxs #specials-below h6 {
+  text-align:center !important;
+}
+.device-xs #specials-below .new-hotline, .device-xxs #specials-below .new-hotline {
+  text-align:center;
+}
+.device-xs #specials-below .button, .device-xxs #specials-below .button {
+  font-size:18px;
+  padding-left:35px;
+  padding-right:35px;
+}
+.device-xs #specials-below .tleft, .device-xxs #specials-below .tleft {
+  text-align:center !important;
+  margin-bottom:40px;
+  margin-top:30px;
+}
+
+.device-xs #specials-below .old-hotline, .device-xxs #specials-below .old-hotline  {
+  line-height:22px !important;
+  font-weight:400;
+}
+
+.device-xs #specials-below .old-hotline a, .device-xxs #specials-below .old-hotline a {
+  font-size:21px;
+}
