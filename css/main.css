@@ -25835,6 +25835,14 @@ a.social-icon.si-colored {
   justify-content: center;
   position: relative; }
 
+#sub-copyright .finance-text {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 10px; }
+
+#sub-copyright {
+  background: #FFF;
+  padding: 10px 0; }
+
 /** PHONE SLUG **/
 .phone-slug {
   background: #CBBC7A;
@@ -26180,8 +26188,10 @@ h4.modal-title {
   box-shadow: none; }
 
 #google-map {
-  height: 100%;
-  border-bottom: 5px solid #FFF; }
+  height: 100%; }
+
+#contact p {
+  margin-bottom: 0; }
 
 #slide-1, #slide-2 {
   background-position: 0% 0%;
