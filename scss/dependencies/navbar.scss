@@ -16,9 +16,10 @@
 }
 
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
-    height:700px;
+    height:100px;
     position:fixed;
-    top:-265px;
+    top:35px;
+    margin-left:30px;
 }
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
   height:100px;

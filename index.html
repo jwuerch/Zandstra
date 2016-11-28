@@ -32,8 +32,8 @@
             <!-- Logo
         ============================================= -->
             <div id="logo">
-                <a href="#" data-scrollto="#header" class="standard-logo"><img src="images/logo-header.svg" alt="Zandstra Logo"></a>
-                <a href="#" data-scrollto="#header" class="retina-logo"><img src="images/logo-header.svg"
+                <a href="#" data-scrollto="#header" class="standard-logo"><img src="images/logo-top.png" alt="Zandstra Logo"></a>
+                <a href="#" data-scrollto="#header" class="retina-logo"><img src="images/logo-top.png"
                                                                              alt="Zandstra Logo"></a>
             </div><!-- #logo end -->
 
@@ -472,24 +472,35 @@
                         ============================================= -->
                         <div id="contact-form-overlay-mini" class="clearfix">
                             <div class="center">
-                                <!--<a href="#" data-scrollto="#header" data-offset="0">-->
-                                    <!--<img src="images/zandstra-logo-BOTTTOM.svg" alt="Logo">-->
-                                <!--</a>-->
+                                <a href="#" data-scrollto="#header" data-offset="0">
+                                    <img src="images/logo-bottom.png" alt="Logo">
+                                </a>
                                 <p class="p-1">3005 Royal Blvd South, Suite 220</p>
                                 <p class="p-2">Alpharetta, GA 30022</p>
-                                <a href="https://goo.gl/maps/ntoVJKYos4F2" target="_blank"><p class="p-3">Click to view map</p></a>
+                                <p class="p-3"><a href="https://goo.gl/maps/ntoVJKYos4F2" target="_blank">Click to view map</a></p>
                                 <p class="p-4">New Patient Hotline</p>
-                                <a href="tel:+18884187563"><p class="p-5">(888) 418&#8209;7563</p></a>
+                                <p class="p-5"><a href="tel:+18884187563">(888) 418&#8209;7563</a></p>
                                 <a class="button" data-toggle="modal"
                                    data-target="#contact-modal">REQUEST APPOINTMENT</a>
                                 <p class="p-6">Existing Patients Call</p>
-                                <a href="tel:+17704104999"><p class="p-7">(605) 352&#8209;3070</p></a>
+                                <p class="p-7"><a href="tel:+17704104999">(605) 352&#8209;3070</a></p>
                                 <p class="p-8">Hours</p>
-                                <p class="hours"><span class="day">Mon:</span>8:00am - 5:00pm</p>
-                                <p class="hours"><span class="day">Tue:</span>8:00am - 5:00pm</p>
-                                <p class="hours"><span class="day">Wed:</span>8:00am - 5:00pm</p>
-                                <p class="hours"><span class="day">Thu:</span>8:00am - 5:00pm</p>
-                                <p class="hours">Closed Fridays</p>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div>Mon:</div>
+                                        <div>Tue:</div>
+                                        <div>Wed:</div>
+                                        <div>Thu:</div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div>8:00am - 5:00pm</div>
+                                        <div>8:00am - 5:00pm</div>
+                                        <div>8:00am - 5:00pm</div>
+                                        <div>8:00am - 5:00pm</div>
+                                    </div>
+                                </div>
+                                <div>Closed Fridays</div>
+
                             </div>
 
 
@@ -503,14 +514,10 @@
 
                 <!-- Google Map
                 ============================================= -->
-                <section id="google-map" class="gmap hidden-xs hidden-xxs"><h2 class=" hidden-lg hidden-md hidden-sm hidden-xshidden-print">Empty Tag</h2>
+                <section class="gmap hidden-xs hidden-xxs"><img src="images/map-full.png" alt="full-map">
                 </section>
-
             </section>
-            <section class="hidden-lg hidden-md hidden-sm map-below-contact-section">
-                <a href="https://goo.gl/maps/ntoVJKYos4F2" target="_blank"><img class="map-below-contact" src="images/map-img.jpg" alt="Location Map"></a>
 
-            </section>
 
 
 
@@ -530,6 +537,8 @@
 
         <!-- Copyrights
        ============================================= -->
+        <section class="gmap-2 hidden-lg hidden-md hidden-sm"><a href="https://goo.gl/maps/ntoVJKYos4F2" target="_blank"><img src="images/map-img.jpg" alt="Map Image"></a></section>
+
         <div id="sub-copyright">
             <div class="center">
                 <span class="finance-text">Financing Available:</span><img src="images/care-credit.png" alt="Care Credit">
