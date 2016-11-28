@@ -26458,8 +26458,7 @@ h4.modal-title {
   font-weight: 900;
   color: #FFF6CD;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 10px;
-  margin-top: 55%; }
+  margin-bottom: 10px; }
 
 #services p {
   font-family: 'Open Sans', sans-serif;
@@ -26541,6 +26540,13 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
   top: -7px;
   font-size: 40px;
   font-weight: 900; }
+
+.device-sm #services h3, .device-xs #services h3, .device-xxs #services h3 {
+  margin-top: 0; }
+
+.wrap-services {
+  position: absolute;
+  bottom: 0; }
 
 /* Service Modals */
 #services a:hover {
