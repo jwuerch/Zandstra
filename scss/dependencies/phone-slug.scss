@@ -131,3 +131,7 @@ $phone-color: #FFF;
   padding-left:25px;
   padding-right:25px;
 }
+
+.phone-slug .new-hotline a:hover, .phone-slug .old-hotline a:hover {
+  text-decoration:none !important;
+}
