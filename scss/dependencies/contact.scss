@@ -79,3 +79,16 @@
   top:-60px;
   position:relative;
 }
+
+.device-lg #contact .container, .device-md #contact .container {
+  margin-right:0;
+}
+
+.device-lg #contact #contact-form-overlay-mini, .device-md #contact #contact-form-overlay-mini {
+  position:absolute;
+  right:0;
+}
+
+.device-lg .vertical-middle, .device-md .vertical-middle {
+  top:0% !important;
+}
