@@ -26877,7 +26877,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 
 @media (max-width: 320px) {
   .portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
-    bottom: inherit !important; } }
+    bottom: 5px !important; } }
 
 /* Service Modals */
 #services a:hover {
