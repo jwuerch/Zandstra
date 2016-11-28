@@ -66,7 +66,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
   transform:translateY(0%);
 }
 
-.portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio > div.owl-stage-outer > div > div > div > div > div.portfolio-desc {
+.portfolio-full.portfolio-notitle .portfolio-desc, .portfolio-nomargin.portfolio-notitle .portfolio-desc, #related-portfolio .portfolio-desc {
   bottom:0px !important;
 }
 
@@ -101,11 +101,6 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
   }
 }
 
-#services-carousel .owl-carousel {
-  z-index:999 !important;
-}
-
-
 #services-carousel .portfolio-desc span {
   font-family: 'Lato', sans-serif;
   font-size:24px;
@@ -123,4 +118,31 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 
 #services-carousel .iportfolio .portfolio-image {
   height:316px;
+}
+
+#services-carousel .owl-carousel .owl-nav [class*=owl-] {
+  opacity:inherit !important;
+  background-color:rgba(255,255,255, .31) !important;
+  height:48px;
+  width:48px;
+  border-radius:0;
+}
+
+#related-portfolio > div.owl-nav > div.owl-prev {
+  margin-left:15px;
+}
+
+#related-portfolio > div.owl-nav > div.owl-next {
+  margin-right:15px;
+}
+
+#services-carousel [class^="icon-"] {
+  position:relative;
+  top:-7px;
+  font-size:40px;
+  font-weight:900;
+}
+
+#services-carousel {
+  border-bottom:3px solid #FFDE86;
 }

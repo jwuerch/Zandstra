@@ -3011,7 +3011,7 @@ var SEMICOLON = SEMICOLON || {};
 					center: elementCenter,
 					lazyLoad: elementLazy,
 					nav: elementNav,
-					navText: ['<i class="icon-chevron-left"></i>','<i class="icon-chevron-right"></i>'],
+					navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
 					autoplay: elementAutoPlay,
 					autoplayTimeout: elementAutoPlayTime,
 					autoplayHoverPause: true,
