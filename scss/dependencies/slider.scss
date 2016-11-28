@@ -326,3 +326,11 @@
 .device-xxs .btn-2 {
   display:none !important;
 }
+
+.device-md #slide-1, .device-sm #slide-1 {
+  background-position-x:25%;
+}
+
+.device-md #slide-2, .device-sm #slide-2 {
+  background-position-x:66% !important;
+}

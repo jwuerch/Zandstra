@@ -26525,6 +26525,9 @@ h4.modal-title {
 .device-xxs .btn-2 {
   display: none !important; }
 
+.device-md #slide-1, .device-sm #slide-1 {
+  background-position-x: 25%; }
+
 #meet-the-doctor h3 {
   font-size: 32px;
   font-weight: 700;
