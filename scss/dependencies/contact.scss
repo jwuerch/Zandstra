@@ -87,8 +87,13 @@
 .device-lg #contact #contact-form-overlay-mini, .device-md #contact #contact-form-overlay-mini {
   position:absolute;
   right:0;
+  background-color:rgba(255, 255, 255, .85);
 }
 
 .device-lg .vertical-middle, .device-md .vertical-middle {
   top:0% !important;
+}
+
+.device-sm #contact #contact-form-overlay-mini {
+  background-color:rgba(255, 255, 255, .85);
 }
