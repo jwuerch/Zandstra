@@ -26136,6 +26136,9 @@ h4.modal-title {
   left: -2px;
   top: -13px !important; }
 
+.device-xxs #specials-top {
+  height: 210px; }
+
 /** CONTACT **/
 #contact-form-overlay-mini {
   padding-top: 15px;
