@@ -26624,13 +26624,18 @@ textarea, .form-control {
     #slide-3.swiper-slide .slider-caption {
       background: rgba(255, 255, 255, 0.5);
       padding: 15px;
-      margin-top: 150px; }
+      margin-top: 150px;
+      width: 400px; }
       #slide-3.swiper-slide .slider-caption h2 {
-        font-size: 44px;
+        text-align: left !important;
+        font-size: 36px;
         margin-bottom: 20px;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
       #slide-3.swiper-slide .slider-caption h4 {
-        font-size: 24px; } }
+        font-size: 24px;
+        text-align: left !important; }
+      #slide-3.swiper-slide .slider-caption .center {
+        text-align: left !important; } }
 
 @media screen and (max-width: 767px) {
   #slide-1.swiper-slide {

@@ -419,13 +419,19 @@
       background:rgba(255,255,255,.5);
       padding:15px;
       margin-top:150px;
+      width:400px;
       h2 {
-        font-size:44px;
+        text-align:left !important;
+        font-size:36px;
         margin-bottom:20px;
         text-shadow:0 2px 4px rgba(0, 0, 0, 0.5);
       }
       h4 {
         font-size:24px;
+        text-align:left !important;
+      }
+      .center {
+        text-align:left !important;
       }
     }
   }
