@@ -26268,6 +26268,10 @@ textarea, .form-control {
   background-position: 0% 0%;
   background-size: cover; }
 
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  #slide-1 {
+    background-position-x: 100%; } }
+
 #slide-3 {
   background-size: cover; }
 
@@ -26549,6 +26553,62 @@ textarea, .form-control {
 
 .device-xs #slide-1 > div > div {
   left: -10%; }
+
+#slider {
+  max-height: 700px; }
+
+#slide-1.swiper-slide {
+  background-position: 100% 100% !important; }
+  @media screen and (max-width: 1460px) and (min-width: 992px) {
+    #slide-1.swiper-slide .slider-caption {
+      background: rgba(255, 255, 255, 0.5);
+      padding: 15px;
+      margin-top: 175px; }
+    #slide-1.swiper-slide h1 {
+      margin-bottom: 10px; } }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    #slide-1.swiper-slide .slider-caption {
+      background: rgba(255, 255, 255, 0.7);
+      padding: 15px;
+      margin-top: 175px; }
+      #slide-1.swiper-slide .slider-caption h1 {
+        margin-bottom: 10px;
+        font-size: 50px; }
+      #slide-1.swiper-slide .slider-caption h2 {
+        font-size: 36px; }
+      #slide-1.swiper-slide .slider-caption h4 {
+        font-size: 24px; } }
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  #slide-2.swiper-slide {
+    background-position: 0% 0% !important; }
+    #slide-2.swiper-slide .slider-caption {
+      background: rgba(255, 255, 255, 0.5);
+      margin-top: -125px;
+      width: 40% !important; }
+      #slide-2.swiper-slide .slider-caption h2 {
+        font-size: 36px; }
+      #slide-2.swiper-slide .slider-caption p {
+        font-size: 20px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
+
+@media screen and (max-width: 991px) {
+  #slide-2.swiper-slide .slider-caption {
+    margin-top: -140px; } }
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  #slide-3.swiper-slide {
+    background-position: 100% 100% !important; }
+    #slide-3.swiper-slide .slider-caption {
+      background: rgba(255, 255, 255, 0.5);
+      padding: 15px;
+      margin-top: 150px; }
+      #slide-3.swiper-slide .slider-caption h2 {
+        font-size: 44px;
+        margin-bottom: 20px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+      #slide-3.swiper-slide .slider-caption h4 {
+        font-size: 24px; } }
 
 #meet-the-doctor h3 {
   font-size: 32px;
