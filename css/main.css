@@ -26049,11 +26049,11 @@ textarea, .form-control {
   background: #3B7030; }
 
 .specials-3 {
-  color: #52A3BF;
+  color: #E87500;
   background: #E87500; }
 
 .specials-3.specials-circle {
-  background: #52A3BF; }
+  background: #E87500; }
 
 .specials-row h5 {
   font-size: 36px;
@@ -26697,8 +26697,9 @@ textarea, .form-control {
 #meet-the-doctor-mobile p {
   /* By combining advance: */
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: #312400; }
+  font-size: 16px;
+  color: #312400;
+  line-height: 22px; }
 
 .device-xs #meet-the-doctor-mobile img, .device-xxs #meet-the-doctor-mobile img {
   margin-bottom: 20px; }
@@ -26726,7 +26727,10 @@ textarea, .form-control {
   border-top: 3px solid #FFE66B;
   border-bottom: 3px solid #FFE66B;
   background: #EDE7D0;
-  padding-top: 30px; }
+  padding: 20px 0; }
+  @media (max-width: 767px) {
+    #specials-below {
+      padding-bottom: 0px; } }
 
 #specials-below h6 {
   font-size: 17px;
@@ -26752,9 +26756,6 @@ textarea, .form-control {
   font-family: 'Lato', sans-serif;
   color: #3C4109;
   margin-top: -10px; }
-
-#specials-below .tleft {
-  margin-top: 12px; }
 
 #specials-below .new-hotline a:hover, #specials-below .old-hotline a:hover {
   text-decoration: none !important; }

@@ -2,7 +2,10 @@
   border-top:3px solid #FFE66B;
   border-bottom:3px solid #FFE66B;
   background:#EDE7D0;
-  padding-top:30px;
+  padding:20px 0;
+  @media (max-width:767px) {
+    padding-bottom:0px;
+  }
 }
 #specials-below h6 {
   font-size:17px;
@@ -32,9 +35,7 @@
   color:#3C4109;
   margin-top:-10px;
 }
-#specials-below .tleft {
-  margin-top:12px;
-}
+
 
 #specials-below .new-hotline a:hover, #specials-below .old-hotline a:hover {
   text-decoration:none !important;
