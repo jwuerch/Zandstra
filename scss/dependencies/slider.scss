@@ -351,6 +351,8 @@
   left:-10%;
 }
 
+
+
 #slider {
   max-height:700px;
 }
@@ -391,12 +393,13 @@
     .slider-caption {
       background:rgba(255,255,255,.5);
       margin-top:-125px;
+      padding:5px;
       width:40% !important;
       h2 {
         font-size:36px;
       }
       p {
-        font-size:20px;
+        font-size:18px;
         text-shadow:0 2px 4px rgba(0, 0, 0, 0.5);
       }
     }
@@ -425,5 +428,11 @@
         font-size:24px;
       }
     }
+  }
+}
+
+#slide-1.swiper-slide {
+  @media screen and (max-width:767px) {
+    background-position:0% 0% !important;
   }
 }

@@ -26585,11 +26585,12 @@ textarea, .form-control {
     #slide-2.swiper-slide .slider-caption {
       background: rgba(255, 255, 255, 0.5);
       margin-top: -125px;
+      padding: 5px;
       width: 40% !important; }
       #slide-2.swiper-slide .slider-caption h2 {
         font-size: 36px; }
       #slide-2.swiper-slide .slider-caption p {
-        font-size: 20px;
+        font-size: 18px;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
 
 @media screen and (max-width: 991px) {
@@ -26609,6 +26610,10 @@ textarea, .form-control {
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
       #slide-3.swiper-slide .slider-caption h4 {
         font-size: 24px; } }
+
+@media screen and (max-width: 767px) {
+  #slide-1.swiper-slide {
+    background-position: 0% 0% !important; } }
 
 #meet-the-doctor h3 {
   font-size: 32px;
