@@ -102,3 +102,13 @@
 .p-5 a:hover, .p-7 a:hover {
   text-decoration:none !important;
 }
+
+.device-lg, .device-md, .device-sm {
+  .map-wrap-2 {
+    display:none;
+  }
+}
+
+.device-xxs .map-wrap-1, .device-xs .map-wrap-1 {
+  display:none;
+}

@@ -27150,6 +27150,12 @@ div.modal-body > div.img-wrap.hidden-xs.hidden-sm {
 .p-5 a:hover, .p-7 a:hover {
   text-decoration: none !important; }
 
+.device-lg .map-wrap-2, .device-md .map-wrap-2, .device-sm .map-wrap-2 {
+  display: none; }
+
+.device-xxs .map-wrap-1, .device-xs .map-wrap-1 {
+  display: none; }
+
 body {
   font-family: "Lato", sans-serif; }
 
