@@ -25966,6 +25966,27 @@ a.social-icon.si-colored {
 .phone-slug .new-hotline a:hover, .phone-slug .old-hotline a:hover {
   text-decoration: none !important; }
 
+.one-page-arrow:hover i {
+  color: #222; }
+
+.device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
+  margin-bottom: 5px; }
+
+.device-xs #phone-slug-1 > div > div > div.col-sm-6.tleft, .device-xxs #phone-slug-1 > div > div > div.col-sm-6.tleft {
+  margin-bottom: 25px; }
+
+.device-xs #specials-below .new-hotline, .device-xxs #specials-below .new-hotline {
+  margin-bottom: -25px; }
+
+.device-xs #specials-below .button, .device-xxs #specials-below .button {
+  margin-bottom: -70px; }
+
+.device-xs #specials-below .old-hotline, .device-xxs #specials-below .old-hotline {
+  margin-top: -10px; }
+
+.device-sm #specials-below .new-hotline, .device-md #specials-below .new-hotline, .device-lg #specials-below .new-hotline {
+  margin-bottom: -10px; }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -26554,7 +26575,7 @@ textarea, .form-control {
 .device-xs #slide-1 > div > div {
   left: -10%; }
 
-#slider {
+#slider, .swiper-slide {
   max-height: 700px; }
 
 #slide-1.swiper-slide {

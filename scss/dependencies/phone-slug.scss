@@ -135,3 +135,31 @@ $phone-color: #FFF;
 .phone-slug .new-hotline a:hover, .phone-slug .old-hotline a:hover {
   text-decoration:none !important;
 }
+.one-page-arrow:hover i {
+  color:#222;
+}
+
+.device-xs, .device-xxs {
+  .phone-slug {
+    .new-hotline {
+      margin-bottom:5px;
+    }
+  }
+  #phone-slug-1 > div > div > div.col-sm-6.tleft {
+    margin-bottom:25px;
+  }
+  #specials-below .new-hotline {
+    margin-bottom:-25px;
+  }
+  #specials-below .button {
+    margin-bottom:-70px;
+  }
+  #specials-below .old-hotline {
+    margin-top:-10px;
+  }
+}
+.device-sm, .device-md, .device-lg {
+  #specials-below .new-hotline {
+    margin-bottom:-10px;
+  }
+}
