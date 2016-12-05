@@ -52,8 +52,8 @@
             navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>']
         });
     });
-
-    $('.services-carousel').owlCarousel({
+    var owl = $('.services-carousel');
+    owl.owlCarousel({
         items: 1,
         loop: true,
         autoplay: true,
@@ -78,6 +78,12 @@
             }
         }
     });
+
+    owl.on('click', function() {
+
+    })
+
+
 
 })(jQuery);
 
