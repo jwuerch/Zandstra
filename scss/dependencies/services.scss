@@ -230,3 +230,8 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
     }
   }
 }
+
+.services-carousel {
+  position:relative;
+  z-index:1;
+}

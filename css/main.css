@@ -25765,10 +25765,12 @@ Copyright (c) 2014 Daniel Eden
   color: #72612B; }
 
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
-  height: 100px;
+  height: 550px;
   position: fixed;
   top: 35px;
-  margin-left: 30px; }
+  margin-left: 30px;
+  top: -190px;
+  z-index: -1; }
 
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
   height: 100px; }
@@ -27029,6 +27031,10 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 .device-md #services p, .device-lg #services p {
   color: #000;
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5); }
+
+.services-carousel {
+  position: relative;
+  z-index: 1; }
 
 /* Service Modals */
 #services a:hover {
