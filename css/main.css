@@ -26887,7 +26887,7 @@ textarea, .form-control {
 
 #services p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   line-height: 20px; }
 
@@ -27026,7 +27026,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 #services-carousel {
   border-bottom: 3px solid #FFDE86; }
 
-.device-md #services h3, .device-lg #services h3 {
+.device-md #services p, .device-lg #services p {
   color: #000;
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5); }
 

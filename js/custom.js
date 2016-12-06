@@ -52,15 +52,19 @@
             navText: ['<i class="icon-angle-left"></i>', '<i class="icon-angle-right"></i>']
         });
     });
-    var owl = $('.services-carousel');
-    owl.owlCarousel({
+
+    $('.services-carousel').owlCarousel({
         items: 1,
+        margin:0,
+        autowidth:true,
         loop: true,
         autoplay: true,
         autoplaySpeed: 400,
         autoplayTimeout: 6000,
         autoplayHoverPause:true,
         nav: true,
+        stopOnHover: true,
+        autoplayHoverPause: true,
         dots: false,
         navText: [
             '<i class="icon-chevron-left"></i>',
@@ -78,13 +82,9 @@
             }
         }
     });
+    
 
-    owl.on('click', function() {
-
-    })
 
 
 
 })(jQuery);
-
-
