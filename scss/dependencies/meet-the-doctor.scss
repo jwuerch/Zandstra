@@ -23,13 +23,17 @@
   padding:60px 0;
   background-image:url('../images/zandstra-bio.jpg');
   background-size:cover;
-  backround-position:0% 0%;
+  background-position:10% 10%;
+  @media (max-width:1200px) {
+    background-image:url('../images/zandstra-bio-bkgd-mobile.jpg');
+  }
 }
 
 #meet-the-doctor p {
-  font-size:12px;
+  font-size:16px;
   color:#312400;
   margin-bottom:20px;
+  line-height:24px;
 }
 #meet-the-doctor-mobile h2 {
   /* Dr. Estelle Zandstra: */
@@ -89,4 +93,10 @@
 }
 .device-md #meet-the-doctor {
   background-position-x:25%;
+}
+
+.device-xs, .device-xxs {
+  #meet-the-doctor-mobile p {
+    line-height:26px !important;
+  }
 }
