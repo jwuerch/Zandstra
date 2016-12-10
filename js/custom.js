@@ -84,11 +84,17 @@
     });
 
     if ($(window).width() <= 1200) {
-        $('.move-mobile').detach().appendTo('.mobile-title');
+        $('.move-mobile').detach().appendTo('.mobile-attach');
+    } else {
+        $('.move-mobile').detach().appendTo('.desktop-attach');
+
     }
     $(window).resize(function() {
         if ($(window).width() <= 1200) {
-            $('.move-mobile').detach().appendTo('.mobile-title');
+            $('.move-mobile').detach().appendTo('.mobile-attach');
+        } else {
+            $('.move-mobile').detach().appendTo('.desktop-attach');
+
         }
     });
 

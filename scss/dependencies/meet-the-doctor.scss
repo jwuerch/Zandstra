@@ -23,7 +23,7 @@
   padding:60px 0;
   background-image:url('../images/zandstra-bio.jpg');
   background-size:cover;
-  background-position:10% 10%;
+  background-position:15% 15%;
   @media (max-width:1200px) {
     background-image:url('../images/zandstra-bio-bkgd-mobile.jpg');
   }
@@ -89,7 +89,6 @@
 
 #meet-the-doctor > div > div > div.col-sm-8 {
   postion:relative;
-  left:5%;
 }
 .device-md #meet-the-doctor {
   background-position-x:25%;
