@@ -86,6 +86,11 @@
     if ($(window).width() <= 1200) {
         $('.move-mobile').detach().appendTo('.mobile-title');
     }
+    $(window).resize(function() {
+        if ($(window).width() <= 1200) {
+            $('.move-mobile').detach().appendTo('.mobile-title');
+        }
+    });
 
 
 
