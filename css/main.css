@@ -25765,11 +25765,11 @@ Copyright (c) 2014 Daniel Eden
   color: #72612B; }
 
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img, #logo img {
-  height: 550px;
+  height: 525px;
   position: fixed;
   top: 35px;
   margin-left: 30px;
-  top: -190px;
+  top: -216px;
   z-index: -1; }
 
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap {
